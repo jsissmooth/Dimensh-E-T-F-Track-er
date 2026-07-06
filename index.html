@@ -34,6 +34,22 @@
       transition:color .15s,border-color .15s;margin-bottom:-1px}
     .tab-btn:hover{color:var(--text)}
     .tab-btn.active{color:#fff;border-bottom-color:var(--accent)}
+    .etf-subtitle{
+      padding:10px 32px;
+      background:var(--surface);
+      border-bottom:1px solid var(--border);
+      font-family:var(--sans);
+      font-size:13px;
+      color:var(--muted);
+      letter-spacing:.02em;
+      min-height:38px;
+    }
+    .etf-subtitle strong{
+      color:var(--accent);
+      font-family:var(--mono);
+      font-size:12px;
+      margin-right:10px;
+    }
     main{padding:24px 32px;max-width:1800px;margin:0 auto}
     .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:24px}
     .stat{background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:16px 18px}
@@ -98,7 +114,7 @@
     @keyframes spin{to{transform:rotate(360deg)}}
     @media(max-width:900px){
       header,main{padding-left:16px;padding-right:16px}
-      .tab-bar{padding:0 16px}
+      .tab-bar,.etf-subtitle{padding-left:16px;padding-right:16px}
       .stats{grid-template-columns:repeat(2,1fr)}
     }
   </style>
@@ -112,6 +128,7 @@
   </div>
 </header>
 <div class="tab-bar" id="tabBar"></div>
+<div class="etf-subtitle" id="etfSubtitle"></div>
 <main>
   <div class="stats">
     <div class="stat"><div class="stat-label">Total Holdings</div><div class="stat-value" id="statTotal">--</div></div>
@@ -167,6 +184,11 @@
   var sortCol       = null;
   var sortDir       = "asc";
 
+  function updateSubtitle(ticker) {
+    document.getElementById("etfSubtitle").innerHTML =
+      '<strong>' + ticker + '</strong>' + (ETF_NAMES[ticker] || "");
+  }
+
   var tabBar = document.getElementById("tabBar");
   ETFS.forEach(function(t) {
     var btn = document.createElement("button");
@@ -188,6 +210,7 @@
     sortDir = "asc";
     document.querySelectorAll(".filter-btn").forEach(function(b, i) { b.classList.toggle("active", i===0); });
     document.getElementById("searchInput").value = "";
+    updateSubtitle(ticker);
     loadCurrentTab();
   }
 
@@ -432,6 +455,7 @@
     document.getElementById("tableWrap").innerHTML='<table>'+thead+tbody+'</table>';
   }
 
+  updateSubtitle(currentTicker);
   loadCurrentTab();
 </script>
 </body>
