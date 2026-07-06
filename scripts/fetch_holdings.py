@@ -58,27 +58,42 @@ def parse_holdings(csv_text):
             return None
 
     for _, row in df.iterrows():
-        ticker = str(row.get("ticker", "")).strip()
-        name   = str(row.get("description", "")).strip()
-        if not ticker or ticker.lower() in ("nan", "ticker"):
+        ticker     = str(row.get("ticker", "")).strip()
+        identifier = str(row.get("identifier", "")).strip()
+        name       = str(row.get("description", "")).strip()
+
+        # clean up nan strings
+        if ticker.lower() == "nan":
+            ticker = ""
+        if identifier.lower() == "nan":
+            identifier = ""
+        if name.lower() == "nan":
+            name = ""
+
+        # use identifier (CUSIP) as key when ticker is missing (e.g. bonds)
+        key = ticker if ticker else identifier
+        if not key or key.lower() == "ticker":
             continue
 
         weight       = safe_float(row.get("weight"))
         pct_of_fund  = round(weight * 100, 6) if weight is not None else None
         quantity     = safe_float(row.get("shares"))
         market_value = safe_float(row.get("market_value"))
-        identifier   = str(row.get("identifier", "")).strip()
-        if identifier.lower() == "nan":
-            identifier = ""
+        coupon_rate  = safe_float(row.get("coupon_rate"))
+        maturity     = str(row.get("maturity_date", "")).strip()
+        if maturity.lower() == "nan":
+            maturity = ""
 
         records.append({
-            "ticker":       ticker,
-            "name":         name,
-            "identifier":   identifier,
-            "pct_of_fund":  pct_of_fund,
-            "quantity":     quantity,
-            "market_value": market_value,
-            "sector":       "",
+            "ticker":        key,
+            "name":          name,
+            "identifier":    identifier,
+            "pct_of_fund":   pct_of_fund,
+            "quantity":      quantity,
+            "market_value":  market_value,
+            "sector":        "",
+            "coupon_rate":   coupon_rate,
+            "maturity_date": maturity,
         })
     return records
 
