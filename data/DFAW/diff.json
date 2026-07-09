@@ -1,7 +1,7 @@
 {
-  "date": "2026-07-07",
+  "date": "2026-07-08",
   "ticker": "DFAW",
-  "prior_date": "2026-07-06",
+  "prior_date": "2026-07-07",
   "diff": [
     {
       "ticker": "DCOR US",
@@ -9,13 +9,13 @@
       "identifier": "25434V625",
       "sector": "",
       "status": "changed",
-      "quantity_today": 3321374.0,
-      "quantity_prior": 3316356.0,
-      "quantity_pct_change": 0.1513,
-      "pct_of_fund_today": 17.678566,
-      "pct_of_fund_prior": 17.577988,
-      "pct_of_fund_change": 0.100578,
-      "market_value_today": 272950515.32
+      "quantity_today": 3325824.0,
+      "quantity_prior": 3321374.0,
+      "quantity_pct_change": 0.134,
+      "pct_of_fund_today": 17.673663,
+      "pct_of_fund_prior": 17.678566,
+      "pct_of_fund_change": -0.004903,
+      "market_value_today": 271886112.0
     },
     {
       "ticker": "DFAC US",
@@ -23,55 +23,55 @@
       "identifier": "25434V708",
       "sector": "",
       "status": "changed",
-      "quantity_today": 18570432.0,
-      "quantity_prior": 18549845.0,
-      "quantity_pct_change": 0.111,
-      "pct_of_fund_today": 53.258965,
-      "pct_of_fund_prior": 53.046856,
-      "pct_of_fund_change": 0.212109,
-      "market_value_today": 822298728.96
+      "quantity_today": 18595182.0,
+      "quantity_prior": 18570432.0,
+      "quantity_pct_change": 0.1333,
+      "pct_of_fund_today": 53.233778,
+      "pct_of_fund_prior": 53.258965,
+      "pct_of_fund_change": -0.025187,
+      "market_value_today": 818931815.28
     },
     {
       "ticker": "DFEM US",
       "name": "DFA EM CORE EQUITY 2 ETF",
       "identifier": "25434V732",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 3485155.0,
+      "status": "changed",
+      "quantity_today": 3489835.0,
       "quantity_prior": 3485155.0,
-      "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 8.844018,
-      "pct_of_fund_prior": 9.034775,
-      "pct_of_fund_change": -0.190757,
-      "market_value_today": 136548372.9
+      "quantity_pct_change": 0.1343,
+      "pct_of_fund_today": 8.938006,
+      "pct_of_fund_prior": 8.844018,
+      "pct_of_fund_change": 0.093988,
+      "market_value_today": 137499499.0
     },
     {
       "ticker": "DFGR US",
       "name": "DFA GBL REAL ESTATE ETF",
       "identifier": "25434V658",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 895717.0,
+      "status": "changed",
+      "quantity_today": 896937.0,
       "quantity_prior": 895717.0,
-      "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 1.709097,
-      "pct_of_fund_prior": 1.680788,
-      "pct_of_fund_change": 0.028309,
-      "market_value_today": 26387822.82
+      "quantity_pct_change": 0.1362,
+      "pct_of_fund_today": 1.696076,
+      "pct_of_fund_prior": 1.709097,
+      "pct_of_fund_change": -0.013021,
+      "market_value_today": 26091897.33
     },
     {
       "ticker": "DFIC US",
       "name": "DFA INTL CORE EQTY 2 ETF",
       "identifier": "25434V799",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 7587819.0,
+      "status": "changed",
+      "quantity_today": 7597529.0,
       "quantity_prior": 7587819.0,
-      "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 18.458893,
-      "pct_of_fund_prior": 18.524462,
-      "pct_of_fund_change": -0.065569,
-      "market_value_today": 284998481.64
+      "quantity_pct_change": 0.128,
+      "pct_of_fund_today": 18.406504,
+      "pct_of_fund_prior": 18.458893,
+      "pct_of_fund_change": -0.052389,
+      "market_value_today": 283159905.83
     }
   ]
 }
