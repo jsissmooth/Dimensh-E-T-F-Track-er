@@ -3,34 +3,12 @@
   "ticker": "DFAW",
   "holdings": [
     {
-      "ticker": "DFGR US",
-      "name": "DFA GBL REAL ESTATE ETF",
-      "identifier": "25434V658",
-      "pct_of_fund": 1.6866,
-      "quantity": 900841.0,
-      "market_value": 26250506.74,
-      "sector": "",
-      "coupon_rate": 0.0,
-      "maturity_date": ""
-    },
-    {
       "ticker": "DFEM US",
       "name": "DFA EM CORE EQUITY 2 ETF",
       "identifier": "25434V732",
       "pct_of_fund": 8.946961,
       "quantity": 3504955.0,
       "market_value": 139251862.15,
-      "sector": "",
-      "coupon_rate": 0.0,
-      "maturity_date": ""
-    },
-    {
-      "ticker": "DCOR US",
-      "name": "DFA US CORE EQUITY 1 ETF",
-      "identifier": "25434V625",
-      "pct_of_fund": 17.693583,
-      "quantity": 3340032.0,
-      "market_value": 275385638.4,
       "sector": "",
       "coupon_rate": 0.0,
       "maturity_date": ""
@@ -53,6 +31,28 @@
       "pct_of_fund": 53.320206,
       "quantity": 18674254.0,
       "market_value": 829883847.76,
+      "sector": "",
+      "coupon_rate": 0.0,
+      "maturity_date": ""
+    },
+    {
+      "ticker": "DFGR US",
+      "name": "DFA GBL REAL ESTATE ETF",
+      "identifier": "25434V658",
+      "pct_of_fund": 1.6866,
+      "quantity": 900841.0,
+      "market_value": 26250506.74,
+      "sector": "",
+      "coupon_rate": 0.0,
+      "maturity_date": ""
+    },
+    {
+      "ticker": "DCOR US",
+      "name": "DFA US CORE EQUITY 1 ETF",
+      "identifier": "25434V625",
+      "pct_of_fund": 17.693583,
+      "quantity": 3340032.0,
+      "market_value": 275385638.4,
       "sector": "",
       "coupon_rate": 0.0,
       "maturity_date": ""
