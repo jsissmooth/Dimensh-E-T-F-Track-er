@@ -1,8 +1,22 @@
 {
-  "date": "2026-10-01",
+  "date": "2026-10-05",
   "ticker": "DFAW",
-  "prior_date": "2026-09-30",
+  "prior_date": "2026-10-01",
   "diff": [
+    {
+      "ticker": "25239Y212",
+      "name": "DFA INVT DIMENSIONS",
+      "identifier": "25239Y212",
+      "sector": "",
+      "status": "added",
+      "quantity_today": 19985197.0,
+      "quantity_prior": null,
+      "quantity_pct_change": null,
+      "pct_of_fund_today": 53.474966,
+      "pct_of_fund_prior": null,
+      "pct_of_fund_change": null,
+      "market_value_today": 904729868.19
+    },
     {
       "ticker": "DCOR US",
       "name": "DFA US CORE EQUITY 1 ETF",
@@ -12,24 +26,24 @@
       "quantity_today": 3572578.0,
       "quantity_prior": 3572578.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 17.780296,
-      "pct_of_fund_prior": 17.731047,
-      "pct_of_fund_change": 0.049249,
-      "market_value_today": 296595425.56
+      "pct_of_fund_today": 17.773405,
+      "pct_of_fund_prior": 17.780296,
+      "pct_of_fund_change": -0.006891,
+      "market_value_today": 300703890.26
     },
     {
       "ticker": "DFAC US",
       "name": "DFA US CORE EQUITY 2 ETF",
       "identifier": "25434V708",
       "sector": "",
-      "status": "unchanged",
-      "quantity_today": 19985197.0,
+      "status": "removed",
+      "quantity_today": null,
       "quantity_prior": 19985197.0,
-      "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 53.505902,
-      "pct_of_fund_prior": 53.338089,
-      "pct_of_fund_change": 0.167813,
-      "market_value_today": 892538898.02
+      "quantity_pct_change": null,
+      "pct_of_fund_today": null,
+      "pct_of_fund_prior": 53.505902,
+      "pct_of_fund_change": null,
+      "market_value_today": null
     },
     {
       "ticker": "DFEM US",
@@ -40,10 +54,10 @@
       "quantity_today": 3744038.0,
       "quantity_prior": 3744038.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 8.9173,
-      "pct_of_fund_prior": 8.929081,
-      "pct_of_fund_change": -0.011781,
-      "market_value_today": 148750629.74
+      "pct_of_fund_today": 9.028841,
+      "pct_of_fund_prior": 8.9173,
+      "pct_of_fund_change": 0.111541,
+      "market_value_today": 152756750.4
     },
     {
       "ticker": "DFGR US",
@@ -54,10 +68,10 @@
       "quantity_today": 964811.0,
       "quantity_prior": 964811.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 1.551228,
-      "pct_of_fund_prior": 1.566992,
-      "pct_of_fund_change": -0.015764,
-      "market_value_today": 25876231.02
+      "pct_of_fund_today": 1.52887,
+      "pct_of_fund_prior": 1.551228,
+      "pct_of_fund_change": -0.022358,
+      "market_value_today": 25866582.91
     },
     {
       "ticker": "DFIC US",
@@ -68,10 +82,10 @@
       "quantity_today": 8126265.0,
       "quantity_prior": 8126265.0,
       "quantity_pct_change": 0.0,
-      "pct_of_fund_today": 18.16107,
-      "pct_of_fund_prior": 18.350655,
-      "pct_of_fund_change": -0.189585,
-      "market_value_today": 302947159.2
+      "pct_of_fund_today": 18.112529,
+      "pct_of_fund_prior": 18.16107,
+      "pct_of_fund_change": -0.048541,
+      "market_value_today": 306441453.15
     }
   ]
 }
