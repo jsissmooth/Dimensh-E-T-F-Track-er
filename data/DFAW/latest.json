@@ -1,25 +1,14 @@
 {
-  "date": "2026-10-09",
+  "date": "2026-10-12",
   "ticker": "DFAW",
   "holdings": [
-    {
-      "ticker": "DCOR US",
-      "name": "DFA US CORE EQUITY 1 ETF",
-      "identifier": "25239Y220",
-      "pct_of_fund": 17.851299,
-      "quantity": 3597668.0,
-      "market_value": 303787085.92,
-      "sector": "",
-      "coupon_rate": 0.0,
-      "maturity_date": ""
-    },
     {
       "ticker": "DFGR US",
       "name": "DFA GBL REAL ESTATE ETF",
       "identifier": "25434V658",
-      "pct_of_fund": 1.55247,
+      "pct_of_fund": 1.562931,
       "quantity": 971658.0,
-      "market_value": 26419381.02,
+      "market_value": 26565129.72,
       "sector": "",
       "coupon_rate": 0.0,
       "maturity_date": ""
@@ -28,20 +17,9 @@
       "ticker": "DFIC US",
       "name": "DFA INTL CORE EQTY 2 ETF",
       "identifier": "25434V799",
-      "pct_of_fund": 18.038412,
+      "pct_of_fund": 18.031455,
       "quantity": 8179358.0,
-      "market_value": 306971305.74,
-      "sector": "",
-      "coupon_rate": 0.0,
-      "maturity_date": ""
-    },
-    {
-      "ticker": "25239Y212",
-      "name": "DFA INVT DIMENSIONS",
-      "identifier": "25239Y212",
-      "pct_of_fund": 53.607478,
-      "quantity": 20125151.0,
-      "market_value": 912273094.83,
+      "market_value": 306480544.26,
       "sector": "",
       "coupon_rate": 0.0,
       "maturity_date": ""
@@ -50,9 +28,31 @@
       "ticker": "DFEM US",
       "name": "DFA EM CORE EQUITY 2 ETF",
       "identifier": "25434V732",
-      "pct_of_fund": 8.862554,
+      "pct_of_fund": 8.797918,
       "quantity": 3769553.0,
-      "market_value": 150819815.53,
+      "market_value": 149538167.51,
+      "sector": "",
+      "coupon_rate": 0.0,
+      "maturity_date": ""
+    },
+    {
+      "ticker": "25239Y212",
+      "name": "DFA INVT DIMENSIONS",
+      "identifier": "25239Y212",
+      "pct_of_fund": 53.648931,
+      "quantity": 20125151.0,
+      "market_value": 911870591.81,
+      "sector": "",
+      "coupon_rate": 0.0,
+      "maturity_date": ""
+    },
+    {
+      "ticker": "DCOR US",
+      "name": "DFA US CORE EQUITY 1 ETF",
+      "identifier": "25239Y220",
+      "pct_of_fund": 17.870872,
+      "quantity": 3597668.0,
+      "market_value": 303751109.24,
       "sector": "",
       "coupon_rate": 0.0,
       "maturity_date": ""
